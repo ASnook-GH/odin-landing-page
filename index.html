@@ -9,41 +9,43 @@
   <body>
     <header class="hero">
       <h1 class="hero-logo">Header Logo</h1>
-      <nav>
-        <a class="secondary-lk" href="#">header link one</a>
-        <a class="secondary-lk" href="#">header link two</a>
-        <a class="secondary-lk" href="#">header link three</a>
+      <nav class="header-nav">
+        <a class="secondary-lk header-lk" href="#">header link one</a>
+        <a class="secondary-lk header-lk" href="#">header link two</a>
+        <a class="secondary-lk header-lk" href="#">header link three</a>
       </nav>
     </header>
     <main>
       <div class="hero">
-        <div>
+        <div class="hero-content">
           <h2 class="hero-title">This website is awesome</h2>
           <p class="secondary-lk">
             this website has somme subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast
           </p>
-          <a class="CTA secondary-lk" href="#">Sign up</a>
+          <a class="blue secondary-lk btn" href="#">Sign up</a>
         </div>
-        <img src="https://placehold.co/600x400" alt="Placeholder image" />
+        <img src="https://placehold.co/600x300" alt="Placeholder image" />
       </div>
-      <div>
+      <div class="illustration">
         <h2 class="info-title">Some Random information.</h2>
-        <div>
-          <div></div>
-          <p>This is some Subtext under and illustration or image</p>
-        </div>
-        <div>
-          <div></div>
-          <p>This is some Subtext under and illustration or image</p>
-        </div>
-        <div>
-          <div></div>
-          <p>This is some Subtext under and illustration or image</p>
-        </div>
-        <div>
-          <div></div>
-          <p>This is some Subtext under and illustration or image</p>
+        <div class="card-group">
+          <div class="card">
+            <div class="square"></div>
+            <p>This is some Subtext under and illustration or image</p>
+          </div>
+          <div class="card">
+            <div class="square"></div>
+            <p>This is some Subtext under and illustration or image</p>
+          </div>
+          <div class="card">
+            <div class="square"></div>
+            <p>This is some Subtext under and illustration or image</p>
+          </div>
+          <div class="card">
+            <div class="square"></div>
+            <p>This is some Subtext under and illustration or image</p>
+          </div>
         </div>
       </div>
       <div class="quote">
@@ -52,18 +54,20 @@
           it's just filling up space, or maybe people will actually read it. Who
           knows ?
         </p>
-        <p>- Thor, God of Thunder</p>
+        <p class="bold">- Thor, God of Thunder</p>
       </div>
-      <div class="CTA">
+      <div class="blue CTA">
         <div>
-          <p>Call to action! It's time!</p>
-          <p>sign up for our products by clicking that button over there !</p>
+          <p class="hero-logo">Call to action! It's time!</p>
+          <p class="secondary-lk">
+            sign up for our products by clicking that button over there !
+          </p>
         </div>
-        <a href="#">Sign up</a>
+        <a href="#" class="btn white">Sign up</a>
       </div>
     </main>
     <footer class="hero">
-      <p>Copyright © the Odin Project 2026</p>
+      <p class="secondary-lk">Copyright © the Odin Project 2026</p>
     </footer>
   </body>
 </html>
